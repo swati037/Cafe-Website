@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<title>Speciality House - About Us</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	
+	<script src="https://kit.fontawesome.com/8e3bbe9588.js" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="menu.html">MENU</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav> 
+	<h1>About Us</h1>
+	
+</section>
+
+
+
+
+
+
+
+
+<!---about us --->
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>Speciality Coffee House</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis nisi tincidunt, auctor massa at, semper magna, ut turpis urna.<br> Molestie eu arcu sed, tincidunt aliquet leo.Vestibulum vehicula molestie ipsum feugiat rhoncus.</p>
+			<a href="menu.html" class="first-btn red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="images/bg4.jpg">
+		</div>
+	</div>
+</section>
+
+
+<section class="our-story">
+	<div class="row">
+		<div class="about-col">
+			<h1>Our Story</h1>
+			<p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper, velit id sagittis sodales, mi felis pellentesque diam, elementum vestibulum ligula sapien eget neque. Phasellus et mi fermentum, scelerisque ante vitae, ultricies ligula. Duis ac orci id mauris tincidunt porta. </p>
+			<p>	Nullam in mauris id urna consequat mollis. Maecenas sagittis bibendum varius. Nullam venenatis, mi quis egestas hendrerit, ex nunc sagittis sapien, non tempor erat justo in magna. Vestibulum ex erat, faucibus nec faucibus eu, ornare eget risus. Nulla diam leo, posuere quis massa quis, tincidunt convallis ex.</p>
+		</div>
+		<div class="about-col">
+			<img src="images/bg5.jpg">
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+<!---Footer--->
+<section class="footer">
+	<h1>About Our Cafe</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis nisi tincidunt, auctor massa at, semper magna, ut turpis urna.<br> Molestie eu arcu sed, tincidunt aliquet leo.Vestibulum vehicula molestie ipsum feugiat rhoncus. </p>
+
+	<div class="icons">
+		<a href="" class="second-btn"><i class="fa fa-facebook"></i></a>
+		<a href="" class="second-btn"><i class="fa fa-twitter"></i></a>
+		<a href="" class="second-btn"><i class="fa fa-instagram"></i></a>	
+	</div>
+
+</section>
+
+
+
+<!---Toggle Menu --->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>

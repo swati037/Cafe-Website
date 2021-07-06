@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<title>Speciality House - Our Menu</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8e3bbe9588.js" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="menu.html">MENU</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav> 
+	<h1>Our Menu</h1>
+	
+</section>
+
+<!---Menu --->
+
+<section class="menu">
+	<h1>Drinks</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate ut nunc et iaculis. Mauris sit amet aliquet tellus.</p>
+	<div class="row">
+		<div class="menu-col">
+			<img src="images/mn9.jpg">
+			<h3>Cappuccino</h3>
+		</div>
+
+		<div class="menu-col">
+			<img src="images/mn7.jpg">
+			<h3>Americano</h3>
+		</div>
+
+		<div class="menu-col">
+			<img src="images/mn6.jpg">
+			<h3>Mocha</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="menu-col">
+			<img src="images/mn4.jpg">
+			<h3>Cortado</h3>
+		</div>
+
+		<div class="menu-col">
+			<img src="images/mn1.jpg">
+			<h3>Latte</h3>
+		</div>
+
+		<div class="menu-col">
+			<img src="images/mn8.jpg">
+			<h3>Macchiato</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="menu-col">
+			<img src="images/mn3.jpg">
+			<h3>Ristretto</h3>
+		</div>
+
+		<div class="menu-col">
+			<img src="images/mn5.jpg">
+			<h3>Espresso</h3>
+		</div>
+
+		<div class="menu-col">
+			<img src="images/mn2.jpg">
+			<h3>Filter</h3>
+		</div>
+	</div>
+
+
+	<h1>Eat</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate ut nunc et iaculis. Mauris sit amet aliquet tellus.</p>
+	<div class="row">
+		<div class="menu-col">
+			<img src="images/mne1.jpg">
+			<h3>Cup Cakes</h3>
+		</div>
+
+		<div class="menu-col">
+			<img src="images/mne5.jpg">
+			<h3>Donnuts</h3>
+		</div>
+
+		<div class="menu-col">
+			<img src="images/mne2.jpg">
+			<h3>Classic Croissant</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="menu-col">
+			<img src="images/mne4.jpg">
+			<h3>Cookies</h3>
+		</div>
+
+		<div class="menu-col">
+			<img src="images/mne3.jpg">
+			<h3>Muffins</h3>
+		</div>
+
+		<div class="menu-col">
+			<img src="images/mne6.jpg">
+			<h3>Chocolate Cake</h3>
+		</div>
+	</div>
+
+</section>
+
+
+
+
+<!---Footer--->
+
+<section class="footer">
+	<h1>About Our Cafe</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis nisi tincidunt, auctor massa at, semper magna, ut turpis urna.<br> Molestie eu arcu sed, tincidunt aliquet leo.Vestibulum vehicula molestie ipsum feugiat rhoncus. </p>
+
+	<div class="icons">
+		<a href="" class="second-btn"><i class="fa fa-facebook"></i></a>
+		<a href="" class="second-btn"><i class="fa fa-twitter"></i></a>
+		<a href="" class="second-btn"><i class="fa fa-instagram"></i></a>	
+	</div>
+
+</section>
+
+
+
+<!---Toggle Menu --->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>

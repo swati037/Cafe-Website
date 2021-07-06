@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<title>Speciality Coffee House</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8e3bbe9588.js" crossorigin="anonymous"></script>
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+<section class="header">
+
+	<nav>
+		
+		<a href="index.html">
+			<div class="nav-links" id="navLinks">
+			
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="menu.html">MENU</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav> 
+
+	<div class="text-box">
+		<h1>Speciality Coffee House</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate ut nunc et iaculis. Mauris sit amet aliquet tellus. <br>Nullam orci libero, faucibus at mattis quis, interdum at orci.</p>
+		<a href="about.html" class="first-btn">VISIT US TO KNOW MORE</a>
+	</div>
+
+</section>
+
+<!---Menu--->
+
+
+
+<!--- Popular Items --->
+<section class="item">
+	<h1>Popular Items</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate ut nunc et iaculis. Mauris sit amet aliquet tellus.<br> Nullam orci libero, faucibus at mattis quis, interdum at orci.</p>
+	
+	<div class="row">
+		<div class="item-col">
+			<img src="images/latte.jpg">
+			<div class="layer2">
+				<h3>CAPPUCCINO</h3>
+			</div>
+		</div>
+		<div class="item-col">
+			<img src="images/mochha.jpg">
+			<div class="layer2">
+				<h3>MOCHA</h3>
+			</div>
+		</div>
+		<div class="item-col">
+			<img src="images/mocha.jpg">
+			<div class="layer2">
+				<h3>ESPRESSO</h3>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+<!--- Today's Special --->
+
+<section class="special">
+	<h1>Today's Special</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate ut nunc et iaculis. Mauris sit amet aliquet tellus.<br> Nullam orci libero, faucibus at mattis quis, interdum at orci.</p>
+	<div class="row">
+		<div class="special-col">
+			<img src="images/CaffeAmericano.jpg">
+			<div class="layer1">
+				<h3>CAFFÈ AMERICANO</h3>
+			</div>
+		</div>
+		<div class="special-col">
+			<img src="images/MochaFrappucino.jpg">
+			<div class="layer1">
+				<h3>MOCHA FRAPPUCINO</h3>
+			</div>
+		</div>
+		<div class="special-col">
+			<img src="images/EspressoMacchiato.jpg">
+			<div class="layer1">
+				<h3>ESPRESSO MACCHIATO</h3>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+<!---Review --->
+
+<section class="review">
+	<h1>Our Customers Say</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	<div class="row">
+		<div class="review-col">
+			<img src="images/user1.jpg">
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h3>Fred Ivan</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+		</div>
+		<div class="review-col">
+			<img src="images/user2.jpg">
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h3>Sana Berle</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!---Call--->
+
+<section class="contact">
+	<h1>Get Yours. We Deliver</h1>
+	<a href="menu.html" class="first-btn">ORDER OUR COFFEE</a>
+</section>
+
+
+
+<!---Footer--->
+<section class="footer">
+	<h1>About Our Cafe</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis nisi tincidunt, auctor massa at, semper magna, ut turpis urna.<br> Molestie eu arcu sed, tincidunt aliquet leo.Vestibulum vehicula molestie ipsum feugiat rhoncus. </p>
+
+	<div class="icons">
+		<a href="" class="second-btn"><i class="fa fa-facebook"></i></a>
+		<a href="" class="second-btn"><i class="fa fa-twitter"></i></a>
+		<a href="" class="second-btn"><i class="fa fa-instagram"></i></a>
+	</div>
+
+</section>
+
+
+
+
+<!---Toggle Menu --->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>
